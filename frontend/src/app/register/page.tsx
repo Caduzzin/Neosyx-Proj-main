@@ -20,7 +20,7 @@ const Page = () => {
       style={{ boxShadow: '4px 15px 10px rgba(0, 0, 0, 0.233)', zIndex: 1, borderRadius: '10px' }}>
         <h1 className="mb-4 text-white font-bold">Página de Registro</h1>
         <form className="flex flex-col items-center gap-4" onSubmit={handleRegister}>
-          <input
+          <input id="InputLogReg"
             value={name}
             onChange={(e) => setName(e.target.value)}
             className="w-full p-2 text-black bg-white border border-gray-300 outline-none"
@@ -28,7 +28,7 @@ const Page = () => {
             placeholder="Digite seu nome"
             required
           />
-          <input
+          <input id="InputLogReg"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             className="w-full p-2 text-black bg-white border border-gray-300 outline-none"
@@ -37,7 +37,7 @@ const Page = () => {
             autoComplete="new-password"
             required
           />
-          <input
+          <input id="InputLogReg"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             className="w-full p-2 text-black bg-white border border-gray-300 outline-none"
@@ -46,7 +46,7 @@ const Page = () => {
             autoComplete="new-password"
             required
           />
-          <input
+          <input id="InputLogReg"
             value={passwordConfirmation}
             onChange={(e) => setPasswordConfirmation(e.target.value)}
             className="w-full p-2 text-black bg-white border border-gray-300 outline-none"

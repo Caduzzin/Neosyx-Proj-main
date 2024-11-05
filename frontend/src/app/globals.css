@@ -28,6 +28,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+input#InputLogReg {
+  z-index: 1;
+  border-radius: 10px;
+  background-color: #4b4b4b;
+  border: #6b6b6b;
+}
+
 button#RegLogButton {
   cursor: pointer;
   border-radius: 10px;

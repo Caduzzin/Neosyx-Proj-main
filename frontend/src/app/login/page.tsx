@@ -23,18 +23,18 @@ const Page = () => {
           className="flex flex-col items-center gap-4"
           onSubmit={handleLogin}
         >
-          <input
+          <input id="InputLogReg"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
-            className="w-full p-2 text-black bg-white border border-gray-300 outline-none"
+            className="w-full p-2 text-black bg-[#4b4b4b] border border-[#6b6b6b] outline-none "
             type="text"
             placeholder="Digite seu email"
             autoComplete="new-email"
           />
-          <input
+          <input id="InputLogReg"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="w-full p-2 text-black bg-white border border-gray-300 outline-none"
+            className="w-full p-2 text-black bg-[#4b4b4b] border border-[#6b6b6b] outline-none"
             type="password"
             placeholder="Digite sua senha"
             autoComplete="new-password"
